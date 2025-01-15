@@ -1,0 +1,63 @@
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+h1{
+    position: absolute;
+    top: 9%;
+    left: 25%;
+    color: white;
+}
+h3{
+    margin: 10px 0 0; /* Adds a margin between h1 and h3 */
+    font-size: 1.2em; /* Adjust the size as needed */
+}
+p{
+    position: absolute; /* Position the text absolutely within the body */
+    top: 20%; /* Adjust top position */
+    left: 5%; /* Adjust left position */
+    color: white; /* Text color */
+    font-size: 1.2em; /* Font size */
+    width: 50%; /* Set width of the paragraph */
+    height: auto; /* Set height to auto; will adjust based on content */
+    margin: 0; /* Remove default margin */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for contrast */
+    padding: 10px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    z-index: 2; /* Set z-index to ensure it's above the image */
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    width: 200px; /* Fixed width for vertical sidebar */
+    height: 100vh; /* Full viewport height */
+    position: fixed; /* Keep it in place as the user scrolls */
+    top: 0;
+    left: 0; /* Aligns the navbar to the left */
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}

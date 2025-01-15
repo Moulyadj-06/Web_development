@@ -1,0 +1,78 @@
+/* styles.css */
+
+body {
+    background-color: #999900;
+    color: #994d00;
+    margin: 0; /* Remove default margin to align content to the left */
+}
+
+#header-content {
+    text-align: center; /* Center align the content within the header */
+}
+
+h1 {
+    font-size: 45px;
+    margin: 30px;
+}
+img {
+    width: 180px;
+    height: 90px;
+    border-image-width: 200px;
+    padding: 10px;
+    border-radius: 30px;
+    border-top-right-radius: 20px;
+    display: flex;
+}
+
+/* Styles for the navigation section */
+#navigation {
+    background-color: #221802;
+    color: #4d9900;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 100px;
+}
+
+a {
+    color: #202050;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for the navigation buttons */
+.navigation-buttons {
+    background-color: #25b968;
+    padding: 10px 0;
+    list-style-type: none;
+    text-align: left; /* Align the buttons to the left */
+    margin-left: 20px; /* Add margin to the left of the buttons */
+    
+}
+
+.navigation-buttons li {
+    margin: 10px 0; /* Adjust margin between buttons */
+}
+
+.navigation-buttons a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    display: block; /* Display buttons as block elements to stack them vertically */
+    font-size: 20px; /* Adjust the font size as needed */
+}
+
+.navigation-buttons a:hover {
+    background-color: #014753;
+}
